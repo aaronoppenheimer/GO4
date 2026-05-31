@@ -32,8 +32,8 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin, AccessMixin
 from django.contrib.auth.views import PasswordChangeDoneView, PasswordResetView, LoginView
 from django.contrib import messages
-from go3.colors import the_colors
-from go3.settings import env
+from go4.colors import the_colors
+from go4.settings import env
 from django.utils import translation
 from django.utils.text import format_lazy
 from django.utils.translation import gettext_lazy as _

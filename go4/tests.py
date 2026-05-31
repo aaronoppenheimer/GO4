@@ -37,7 +37,7 @@ class ErrorTest(TestCase):
         self.assertEqual(response.status_code, 404)
 
 
-class TestGO3API(TestCase):
+class Testgo4API(TestCase):
     def setUp(self):
         self.member = Member.objects.create_user('a@b.com', password='abc', api_key="test")
 

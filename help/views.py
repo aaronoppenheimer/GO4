@@ -23,7 +23,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from .forms import BandRequestForm
 from lib import email
 from lib.captcha import verify_captcha, get_captcha_site_key
-from go3.settings import env, URL_BASE, SUPERUSER_EMAIL, HELP_EMAIL
+from go4.settings import env, URL_BASE, SUPERUSER_EMAIL, HELP_EMAIL
 
 @login_required
 def help(request):

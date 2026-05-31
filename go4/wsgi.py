@@ -16,7 +16,7 @@
 """
 
 """
-WSGI config for go3 project.
+WSGI config for go4 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -28,6 +28,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'go3.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'go4.settings')
 
 application = get_wsgi_application()

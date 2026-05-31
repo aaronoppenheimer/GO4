@@ -14,7 +14,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-from go3.settings import env
+from go4.settings import env
 import json
 from urllib import request as urllib_request
 from urllib import parse as urllib_parse

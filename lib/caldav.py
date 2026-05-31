@@ -21,7 +21,7 @@ from django.utils import timezone, translation
 from django.utils.translation import gettext_lazy as _
 from gig.util import GigStatusChoices
 from django.conf import settings
-from go3.settings import URL_BASE
+from go4.settings import URL_BASE
 
 if default_storage.__class__ == FileSystemStorage:
     default_storage.location = f'{settings.CALFEED_BASEDIR}calfeeds'

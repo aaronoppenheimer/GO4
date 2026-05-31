@@ -27,7 +27,7 @@ from band.models import Assoc, Band
 from band.util import AssocStatusChoices
 from gig.models import GigStatusChoices, Plan
 from gig.util import PlanStatusChoices
-from go3.settings import LANGUAGES
+from go4.settings import LANGUAGES
 from lib.caldav import delete_calfeed
 from lib.email import EmailRecipient
 from motd.models import MOTD

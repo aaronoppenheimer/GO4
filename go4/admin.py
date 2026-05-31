@@ -17,7 +17,7 @@
 
 from django.contrib import admin
 
-class Go3AdminSite(admin.AdminSite):
+class Go4AdminSite(admin.AdminSite):
     site_header = 'Gig-o-Matic Admin'
 
     def get_app_list(self, request, app_label=None):

@@ -6,7 +6,7 @@ from .util import dateconverter
 from band.util import _get_active_bands, _get_inactive_bands, _get_active_band_members, _get_joiners
 import json
 from datetime import datetime, timedelta
-from go3.settings import URL_BASE
+from go4.settings import URL_BASE
 
 # Create your views here.
 class AllStatsView(LoginRequiredMixin, TemplateView):

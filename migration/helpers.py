@@ -18,13 +18,13 @@ import logging
 from band.models import Band
 from member.models import Member
 from django.contrib.auth.forms import PasswordResetForm
-import go3.settings
+import go4.settings
 from urllib.parse import urlparse
 
 def send_migrated_user_password_reset(band_id, member_id):
   band = Band.objects.get(id=band_id)
   member = Member.objects.get(id=member_id)
-  domain = urlparse(go3.settings.URL_BASE).netloc
+  domain = urlparse(go4.settings.URL_BASE).netloc
 
   assert member.email
 
@@ -36,7 +36,7 @@ def send_migrated_user_password_reset(band_id, member_id):
   form.save(
     domain_override = domain,
     use_https=True,
-    from_email=go3.settings.DEFAULT_FROM_EMAIL,
+    from_email=go4.settings.DEFAULT_FROM_EMAIL,
     subject_template_name="email/migration_password_reset_subject.txt",
     email_template_name="email/migration_password_reset_body.md",
     extra_email_context = {

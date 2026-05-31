@@ -3,7 +3,7 @@ from unittest.mock import patch
 
 from django.test import override_settings, TestCase
 from django.utils import translation
-from go3 import settings
+from go4 import settings
 
 MISSING = 'MISSING'
 MISSING_TEMPLATES = copy.deepcopy(settings.TEMPLATES)

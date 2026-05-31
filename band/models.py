@@ -18,14 +18,14 @@
 from django.db import models
 from django.db.models import Q
 from django.db.models.functions import Lower
-from go3.colors import the_colors
+from go4.colors import the_colors
 from .util import BandStatusChoices, AssocStatusChoices
 from member.util import MemberStatusChoices, AgendaChoices
 from django.apps import apps
 from django.utils import timezone
 import pytz
 import uuid
-from go3.settings import LANGUAGES, URL_BASE
+from go4.settings import LANGUAGES, URL_BASE
 from django.utils.translation import gettext_lazy as _
 
 

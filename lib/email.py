@@ -8,7 +8,7 @@ from markdown import markdown
 import email.utils
 import pytz
 
-from go3.settings import DEFAULT_FROM_EMAIL, DEFAULT_FROM_EMAIL_NAME, LANGUAGE_CODE, URL_BASE
+from go4.settings import DEFAULT_FROM_EMAIL, DEFAULT_FROM_EMAIL_NAME, LANGUAGE_CODE, URL_BASE
 
 SUBJECT = 'Subject:'
 DEFAULT_SUBJECT = 'Message from Gig-O-Matic'

@@ -25,7 +25,7 @@ from stats.util import dateconverter
 import json
 from django.utils.safestring import SafeString
 from django.utils.translation import gettext_lazy as _
-from go3.settings import URL_BASE
+from go4.settings import URL_BASE
 
 class BandMemberRequiredMixin(UserPassesTestMixin):
     """Verify that the current user is authenticated and is a member of this band (or is the superuser)."""

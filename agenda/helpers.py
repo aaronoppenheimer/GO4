@@ -35,7 +35,7 @@ from member.util import AgendaChoices, AgendaLayoutChoices
 import json
 import logging
 
-from go3.colors import the_colors
+from go4.colors import the_colors
 from django.shortcuts import render
 from django.core.paginator import Paginator
 
