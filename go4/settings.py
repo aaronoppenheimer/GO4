@@ -58,7 +58,7 @@ LOGGING = {
     },
     "root": {
         "handlers": ["console"],
-        "level": env("LOG_LEVEL", default="WARN"),
+        "level": env("LOG_LEVEL", default="INFO" if _testing else "WARN"),
     },
 }
 
